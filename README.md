@@ -1,5 +1,7 @@
 # KUKA-powerbank-assembly-safety-AI
 ![Robodk rdk](Robodk.png)
+[![YouTube Demo Video](https://img.youtube.com/vi/OotfPT0KuW4/0.jpg)](https://youtube.com/shorts/OotfPT0KuW4)
+
 # Real-time Human Detection and Robot Safety System with RoboDK Integration
 
 This system integrates a KUKA robot with a real-time human detection system to ensure safe and efficient operation in a shared workspace. By using a camera, OpenCV, and YOLOv8s-seg for human segmentation, the system monitors a predefined "danger zone" around the robot. If a human is detected within this zone, the robot immediately stops its tasks and resumes only when the area is clear. RoboDK is used for offline programming and simulation, generating motion commands for the KUKA robot.
